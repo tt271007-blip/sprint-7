@@ -1,5 +1,4 @@
 package tests;
-
 import clients.courierClient;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
@@ -9,10 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.dataGenerator;
 
-
-import static org.hamcrest.Matchers.*;
-
-public class loginCourierTest {
+public class LoginCourierTest {
     private final courierClient client = new courierClient();
     private int courierId;
 

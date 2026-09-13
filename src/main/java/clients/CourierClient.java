@@ -1,13 +1,7 @@
 package clients;
 
-import io.qameta.allure.Step;
-import io.restassured.response.Response;
-import models.courier;
 
-import static io.restassured.RestAssured.given;
-import static io.restassured.http.ContentType.JSON;
-
-public class courierClient {
+public class CourierClient {
     private static final String BASE_URL = "https://qa-scooter.education-services.ru/api/v1/courier";
 
     @Step("Создание курьера")

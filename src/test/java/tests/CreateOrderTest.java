@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 import static org.hamcrest.Matchers.*;
 
-public class createOrderTest {
+public class CreateOrderTest {
     private final orderClient client = new orderClient();
 
     private static Stream<Arguments> provideOrderColors() {

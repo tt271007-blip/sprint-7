@@ -2,7 +2,7 @@ package models;
 
 import java.util.List;
 
-public class order {
+public class Order {
     private String firstName;
     private String lastName;
     private String address;

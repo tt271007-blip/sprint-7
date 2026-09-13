@@ -1,7 +1,7 @@
 package clients;
 
 
-public class CamelCase {
+public class OrderClient {
     private static final String BASE_URL = "https://qa-scooter.education-services.ru/api/v1/orders";
 
     @Step("Создание заказа")

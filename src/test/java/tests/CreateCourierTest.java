@@ -11,7 +11,7 @@ import utils.dataGenerator;
 
 import static org.hamcrest.Matchers.*;
 
-public class createCourierTest {
+public class CreateCourierTest {
     private final courierClient client = new courierClient();
     private int courierId;
 

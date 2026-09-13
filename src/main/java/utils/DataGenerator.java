@@ -2,7 +2,7 @@ package utils;
 
 import java.util.UUID;
 
-public class dataGenerator {
+public class DataGenerator {
 
     public static String generateRandomLogin() {
         return "login_" + UUID.randomUUID().toString().substring(0, 8);

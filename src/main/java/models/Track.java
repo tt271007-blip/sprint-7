@@ -1,6 +1,6 @@
 package models;
 
-public class track {
+public class Track {
     private int track;
 
     public track() {
